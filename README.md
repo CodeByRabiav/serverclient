@@ -23,9 +23,9 @@ Basit bir sunucu ve istemci uygulaması.İstemci, metinleri çeşitli şifreleme
 
 ## ekran görüntüleri
 
-![Sunucu Arayüzü](serverclient1/screenshots/server.png)
-![İstemci Arayüzü](serverclient1/screenshots/client.png)
-![Gönderme Sonucu](serverclient1/screenshots/result.png)
+![Sunucu Arayüzü](screenshots/server.png)
+![İstemci Arayüzü](screenshots/client.png)
+![Gönderme Sonucu](screenshots/result.png)
 
 ## kullanılan teknolojiler
 
