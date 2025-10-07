@@ -1,6 +1,6 @@
 # Basit Sunucu-İstemci Uygulaması (Server - Client)
 
-Basit bir sunucu ve istemci uygulaması. Sunucu, istemciden gelen mesajları alır ve yanıt gönderir.
+Basit bir sunucu ve istemci uygulaması.İstemci, metinleri çeşitli şifreleme yöntemleriyle şifreleyip sunucuya gönderebilir; ayrıca dosya gönderimi de desteklenir. Sunucu gelen veriyi alır, metin dosyalarını arayüzde gösterir.
 
 ## Nasıl Çalıştırılır?
 
@@ -14,4 +14,23 @@ Basit bir sunucu ve istemci uygulaması. Sunucu, istemciden gelen mesajları al�
     ```bash
    python client.py
 
-5. istemci üzerinden mesaj gönder sunucu üzerinden mesajı al.
+5. İstemci arayüzünden:
+
+   Şifreleme yöntemini seç.
+   Anahtarı ve metni gir.
+   “Şifrele ve Gönder” butonuna tıkla.
+   Dosya göndermek istersen “Dosya Gönder” butonunu kullan.
+
+## ekran görüntüleri
+
+![Sunucu Arayüzü](serverclient1/screenshots/server.png)
+![İstemci Arayüzü](serverclient1/screenshots/client.png)
+![Gönderme Sonucu](serverclient1/screenshots/result.png)
+
+## kullanılan teknolojiler
+
+    socket (iletişim)
+
+    tkinter (grafik arayüz)
+
+    threading (çoklu bağlantı desteği)
